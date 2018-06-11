@@ -1,11 +1,11 @@
 /**
- * 题目：给一个图像的灰度矩阵，对每个点做模糊滤波（九个点取平均值）。
+ * 题目：661. Image Smoother 给一个图像的灰度矩阵，对每个点做模糊滤波（九个点取平均值）。
  *
  * 分析：这道题重点要分析图像周边点的情况。因此需要对每个点周围的八个点进行分析，只有坐标在图像内可以累加sum，并计数count
  *      最后 sum/count 就是每个点点结果。easy 题，结果自己答案其实写复杂了。。。
  */
 
-class Solution {
+class ImageSmooth {
     public int[][] imageSmoother(int[][] M) {
 
         int row = M.length;

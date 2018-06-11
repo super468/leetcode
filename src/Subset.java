@@ -1,5 +1,5 @@
 /**
- * 题目：给一组数组，找到其所有的subset。
+ * 78 题目：给一组数组，找到其所有的subset。
  *
  *   Input: nums = [1,2,3]
      Output:
@@ -28,10 +28,13 @@
  */
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * DFS solution
  */
-class DFSSolution {
+class Subset {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<List<Integer>>();
         List<Integer> set = new ArrayList<Integer>();
@@ -69,7 +72,7 @@ class DFSSolution {
  *
  *  那就把问题简化为求 [1,2] 的 subset
  *
- *  
+ *
  */
 class IterationSolution {
     public List<List<Integer>> subsets(int[] nums) {
