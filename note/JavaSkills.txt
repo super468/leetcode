@@ -1,0 +1,18 @@
+
+//int array convert to list;
+
+int nums = new int[10];
+List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList();
+
+
+//can't change value by using for each in Java
+
+ for(int i: array){
+     i = 1;
+ }
+
+ the array wouldn't change cause 'i' is just a local variable copying value from current element in the array.
+
+ //add first
+
+ The java.util.LinkedList.addFirst(E e) method inserts the specified element at the beginning of this list.
