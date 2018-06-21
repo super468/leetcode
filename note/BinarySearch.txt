@@ -1,0 +1,5 @@
+比O(N)更优的时间复杂度只可能是O(logN)的二分法
+
+ArrayList 动态数组 实现原理：倍增
+
+倍增例子： 网站访问 exponential backoff
