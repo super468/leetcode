@@ -1,0 +1,5 @@
+15. 3Sum
+55. Jump Game 
+39. Combination Sum
+54. Spiral Matrix
+94. Binary Tree Inorder Traversal
