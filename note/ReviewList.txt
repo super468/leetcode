@@ -1,8 +1,11 @@
 first round:
     Find kth :
         215. Kth Largest Element in an Array
-
+        4. The Median of Two Sorted Arrays
     Binary Tree:
         Binary Tree Preorder Inorder Poster
                         - Iteration
                         - Morris
+
+    Binary Search:
+        300. Longest Increasing Subsequence
