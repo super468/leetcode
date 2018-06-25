@@ -30,13 +30,15 @@ public class CombinationSum {
         for(int i = next; i < candidates.length; i++){
             if(presum + candidates[i] == target){
                 row.add(candidates[i]);
-                list.add(row);
+                //list.add(row);
+                list.add(new ArrayList<Integer>(row));
+                row.remove(row.size() - 1);
                 break;
             }
             else if((presum + candidates[i]) < target){
                 row.add(candidates[i]);
-                ArrayList<Integer> copyrow = new ArrayList<Integer>(row);
-                DFS(candidates, target, list, copyrow, i, presum + candidates[i]);
+                //ArrayList<Integer> copyrow = new ArrayList<Integer>(row);
+                DFS(candidates, target, list, row, i, presum + candidates[i]);
                 row.remove(row.size() - 1);
 
             }
