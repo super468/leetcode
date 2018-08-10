@@ -4,3 +4,8 @@
 54. Spiral Matrix
 94. Binary Tree Inorder Traversal
 102. Binary Tree Level Order Traversal
+110. Balanced Binary Tree
+278. Find Duplicate Number
+35. Search Insert Position
+240. Search a 2D Matrix II
+33. Search in Rotated Sorted Array

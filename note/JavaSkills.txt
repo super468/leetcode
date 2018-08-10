@@ -16,3 +16,13 @@ List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList();
  //add first
 
  The java.util.LinkedList.addFirst(E e) method inserts the specified element at the beginning of this list.
+
+ //set remove
+
+ remove
+ boolean remove(Object o)
+ Removes the specified element from this set if it is present (optional operation).
+
+ removeAll
+ boolean removeAll(Collection<?> c)
+ Removes from this set all of its elements that are contained in the specified collection (optional operation).
