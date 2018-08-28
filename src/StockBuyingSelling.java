@@ -29,8 +29,8 @@ class Solution {
     public int maxProfit(int[] prices, int fee) {
         int cash = 0, hold = -prices[0];
         for (int i = 1; i < prices.length; i++) {
-            cash = Math.max(cash, hold + prices[i] - fee);
-            hold = Math.max(hold, cash - prices[i]);
+            cash = Math.max(cash, hold + prices[i] - fee); //决定 卖还是不卖
+            hold = Math.max(hold, cash - prices[i]);//
         }
         return cash;
     }

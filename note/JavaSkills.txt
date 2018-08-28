@@ -26,3 +26,7 @@ List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList();
  removeAll
  boolean removeAll(Collection<?> c)
  Removes from this set all of its elements that are contained in the specified collection (optional operation).
+
+map.getOrDefault(key , value) return the value to which the key is mapped or just the parameter value.
+
+map.keySet() return a Set of the map keys.
