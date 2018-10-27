@@ -1,12 +1,12 @@
-#Python Grammer
-##lambda
+# Python Grammer
+## lambda
 lambda : an anonymous function
 ```python
 f = lambda x : x + 5
 print(f(5)) # 10
 ```
 
-##Sort
+## Sort
 * sorted() return a new ordered iterable object
     * parameter: sorted(key=function)
       ```python
@@ -20,7 +20,7 @@ print(f(5)) # 10
       [('Jeff', 16),('Tom', 17)]
       ```
 * list.sort() in place sort
-##Min Heap
+## Min Heap
 min heap is a binary tree that each node is less than or equal to any of its children.  
 `heap[k] <= heap[2k] && heap[2k+1] and heap[k] >= heap[k/2]`  
 To create a heap, use a list initialized to `[]`, or you can transform a populated list into a heap via function `heapify()`.  
