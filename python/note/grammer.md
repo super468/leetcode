@@ -35,5 +35,28 @@ To create a heap, use a list initialized to `[]`, or you can transform a populat
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+## Join
+`string.join()` instead of `list.join()`. Because join is a string method
+
+## Built-in Function
+### iter()
+```python
+    iter()
+    """
+    :param a collection object
+    :return a iterable object
+    """
+```
+### next()
+```python
+    next()
+    """
+    Retrieve the next item from the iterator by calling its next() method. 
+    :param iterator
+    :return value
+    """
+```
+
+
 
 
