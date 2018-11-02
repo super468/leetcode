@@ -28,3 +28,4 @@ class Solution:
         left = self.traversal(root.left, count, root.val)
         right = self.traversal(root.right, count, root.val)
         return max(left, right, count)
+
