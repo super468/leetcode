@@ -30,3 +30,8 @@ List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList();
 map.getOrDefault(key , value) return the value to which the key is mapped or just the parameter value.
 
 map.keySet() return a Set of the map keys.
+
+
+//useful data structure
+PriorityQueue
+
