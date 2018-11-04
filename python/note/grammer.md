@@ -56,7 +56,80 @@ To create a heap, use a list initialized to `[]`, or you can transform a populat
     :return value
     """
 ```
+### any()
+Return True if any element of the iterable is true. If the iterable is empty, return False.Equivalent to:
+```python
+def any(iterable):
+    for element in iterable:
+        if element:
+            return True
+    return False
+```
+
+### map()
+map() function returns a list of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+```python
+numbers = (1, 2, 3, 4) 
+result = map(lambda x: x + x, numbers) 
+print(list(result)) 
+```
+Output
+```python
+{2, 4, 6, 8}
+```
+
+## String Function
+### find()
+It determines if string str occurs in string, or in a substring of string if starting index beg and ending index end are given.
+
+```python
+str1 = "this is string example....wow!!!";
+str2 = "exam";
+
+print str1.find(str2)
+print str1.find(str2, 10)
+print str1.find(str2, 40)
+
+```
+Output
+```python
+15
+15
+-1
+```
+
+## List Funciton
+### index()
+In simple terms, index() method finds the given element in a list and returns its position.
+
+However, if the same element is present more than once, index() method returns its smallest/first position.
 
 
+```python
+list = ['a','a']
+list.index('a')
+```
+Output
+```python
+0
+```
 
+## Dictionary Function
+### setdefault(key,default=None)
+The method setdefault() is similar to get(), but will set dict[key]=default if key is not already in dict.
 
+* key − This is the key to be searched.
+
+* default − This is the Value to be returned in case key is not found.
+
+This method returns the key value available in the dictionary and if given key is not available then it will return provided default value.
+```python
+a ={}
+a.setdefault('a',1)
+a.setdefault('a',2)
+```
+Output
+```python
+1
+1
+```
